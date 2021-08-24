@@ -14,66 +14,74 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 **** PÁGINA INICIAL
 */
 
-/* VARIÁVEIS */
-:root{
-  
-}
-
 /*BODY*/
-body{
 
+body{ 
+	font-family: Arial, Helvetica, sans-serif;
+	color:#262626;
 }
 
-/*TOPO*/
-header{
+main .profile-content{display: flex;}
+
+/* informaçoes perfil */
+
+.info{
+	list-style-type: none;
+	padding-left: 0px;
+	margin-top: -14px;
+}
+
+.profile-data {
+	display: flex;
+	margin-top: -18px;
+}
+
+.profile-data p{ padding-right: 40px;}
+
+.profile-data span{ font-weight: bold;}
+
+.fotinha{ margin-top: 44px;}
+
+.fotinha img{border-radius: 100px;}
 	
+	
+/* configuração "stories"*/
+	
+.listinhaas1{list-style-type: none;}
+.listinhaas2{list-style-type: none;}
+	
+.storiee1 img{height: 77px;border-radius: 100px}
+.storiee1 figcaption{text-align: center; margin-top: 10px;}
+.storie2 img{height: 77px; border-radius: 100px;}
+.storie2 figcaption{text-align: center; margin-top: 10px;}
+	
+.listinhaamae{display: flex;}
+.linha_alba{
+	margin-left: 55px;
+	margin-right: 140px;
 }
+	
+/* configuração Menu post */
 
+.postes{text-align: center;}
+.postes a{
+	padding: 30px;
+    color: black;
+}
+	
+/* post */
+
+.colunaa1{column-count: 2;}
+.colunaa2{column-count: 2;}
+	
+ul li{list-style-type: none;}
+	
+ul li a figure img{
+	width: 293px;
+	height: 293px;
+}
+	
 /*RODAPÉ*/
 footer{
-
-}
-
-/*PÁGINA INICIAL*/
-main{
 	
 }
-	main .profile-content{
-		display: flex;
-	}
-
-	.info{
-		list-style-type: none;
-		padding-left: 0px;
-    	margin-top: -14px;
-	}
-	
-	.profile-data {
-		display: flex;
-		margin-top: -18px;
-	}
-	.profile-data p{
-		padding-right: 40px;
-	}
-	.profile-data span{
-		font-weight: bold;
-	}
-    .fotinha{
-		margin-top: 44px;
-	}
-	.fotinha img{
-		border-radius: 100px;
-	}
-	
-
-	/* configuração "stories"*/
-
-	.listinhaas1{list-style-type: none;}
-	.listinhaas2{list-style-type: none;}
-
-	.storiee1 img{height: 40px;border-radius: 100px}
-	.storie2 img{height: 40px; border-radius: 100px;}
-	
-	.listinhaamae{display: flex;}
-
-	

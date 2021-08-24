@@ -39,13 +39,41 @@ main{
 	
 }
 	main .profile-content{
-
+		display: flex;
 	}
 
-	main .highlighted-stories{
-
+	.info{
+		list-style-type: none;
+		padding-left: 0px;
+    	margin-top: -14px;
 	}
-
-	main .profile-posts{
-
+	
+	.profile-data {
+		display: flex;
+		margin-top: -18px;
 	}
+	.profile-data p{
+		padding-right: 40px;
+	}
+	.profile-data span{
+		font-weight: bold;
+	}
+    .fotinha{
+		margin-top: 44px;
+	}
+	.fotinha img{
+		border-radius: 100px;
+	}
+	
+
+	/* configuração "stories"*/
+
+	.listinhaas1{list-style-type: none;}
+	.listinhaas2{list-style-type: none;}
+
+	.storiee1 img{height: 40px;border-radius: 100px}
+	.storie2 img{height: 40px; border-radius: 100px;}
+	
+	.listinhaamae{display: flex;}
+
+	
